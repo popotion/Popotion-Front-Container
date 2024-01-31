@@ -4,6 +4,6 @@ services:
       context: app
       target: production-stage
     ports:
-      - 8080:80
+      - 9926:80
     volumes:
       - ./app:/app
